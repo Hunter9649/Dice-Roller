@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+      "layer0": "minecraft:item/warped_fungus_on_a_stick"
+    },
+    "overrides":
+    [
+        { "predicate": { "custom_model_data": 6230001}, "model": "dice/enemy_d4"},
+        { "predicate": { "custom_model_data": 6230002}, "model": "dice/enemy_d6"},
+        { "predicate": { "custom_model_data": 6230003}, "model": "dice/enemy_d8"},
+        { "predicate": { "custom_model_data": 6230004}, "model": "dice/enemy_d10"},
+        { "predicate": { "custom_model_data": 6230005}, "model": "dice/enemy_d12"},
+        { "predicate": { "custom_model_data": 6230006}, "model": "dice/enemy_d20"},
+        { "predicate": { "custom_model_data": 6230007}, "model": "dice/master_d4"},
+        { "predicate": { "custom_model_data": 6230008}, "model": "dice/master_d6"},
+        { "predicate": { "custom_model_data": 6230009}, "model": "dice/master_d8"},
+        { "predicate": { "custom_model_data": 6230010}, "model": "dice/master_d10"},
+        { "predicate": { "custom_model_data": 6230011}, "model": "dice/master_d12"},
+        { "predicate": { "custom_model_data": 6230012}, "model": "dice/master_d20"},
+        { "predicate": { "custom_model_data": 6230013}, "model": "dice/player_d4"},
+        { "predicate": { "custom_model_data": 6230014}, "model": "dice/player_d6"},
+        { "predicate": { "custom_model_data": 6230015}, "model": "dice/player_d8"},
+        { "predicate": { "custom_model_data": 6230016}, "model": "dice/player_d10"},
+        { "predicate": { "custom_model_data": 6230017}, "model": "dice/player_d12"},
+        { "predicate": { "custom_model_data": 6230018}, "model": "dice/player_d20"}
+    ]
+}
