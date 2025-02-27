@@ -1,0 +1,2 @@
+execute store result score 100 random_num run loot spawn ~ ~ ~ loot dr:d100
+tellraw @a ["", {"selector":"@s"}, {"text":" rolled a d100 and got a "}, {"score":{"name":"100","objective":"random_num"}}, {"text":"."}]
